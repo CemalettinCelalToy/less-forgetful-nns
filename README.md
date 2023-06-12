@@ -7,7 +7,8 @@ This environment contains all packages with required versions.
  
 ## Output
 
-![Accuracy on two datasets with different training scenarios.](images/sequential-and-mixed-and-ewc.png)
+![Accuracy on three datasets with different training scenarios.](with_3_task.png)
+![Accuracy on ten datasets with different training scenarios.](with_10_task.png)
 
 ## Problem
 
