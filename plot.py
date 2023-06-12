@@ -23,7 +23,7 @@ if __name__ == "__main__":
         Data("ewc.csv", "With EWC")
     ]
 
-    fig = plt.figure()
+    fig = plt.figure(figsize=(15,12))
 
     total_plots = len(data)
     axes = []
@@ -57,5 +57,6 @@ if __name__ == "__main__":
 
     # Prevent subfigure labels etc from being covered by other things
     plt.tight_layout()
+    plt.savefig("with_3_task.png")
 
     plt.show()
