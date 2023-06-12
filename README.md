@@ -1,6 +1,15 @@
 # Less Forgetful Neural Networks Using Elastic Weight Consolidation
-
-![Accuracy on two datasets with different training scenarios.](images/sequential-and-mixed-and-ewc.png)
+## How to run
+If you want to run this project in local environment, you can use the following docker image.
+- docker pull ghcr.io/mertcarabaci/anaconda-dev:2020.02
+- docker run -ti -d <image-id>
+This environment contains all packages with required versions.
+ 
+## Outputs 
+ ### Accuracy on three datasets with different training scenarios
+![Accuracy on three datasets with different training scenarios.](with_3_task.png)
+ ### Accuracy on ten datasets with different training scenarios
+![Accuracy on ten datasets with different training scenarios.](with_10_task.png)
 
 ## Problem
 
