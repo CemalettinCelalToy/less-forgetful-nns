@@ -57,5 +57,6 @@ if __name__ == "__main__":
 
     # Prevent subfigure labels etc from being covered by other things
     plt.tight_layout()
+    plt.savefig("with_3_task.png")
 
     plt.show()
